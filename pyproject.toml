@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "documind-rag"
+version = "0.1.0"
+description = "Local-first PDF question answering with hybrid retrieval and auditable citations"
+requires-python = ">=3.10,<3.14"
+dependencies = ["pymupdf>=1.25,<2", "sentence-transformers>=3.4,<6", "faiss-cpu>=1.10,<2", "rank-bm25==0.2.2", "numpy>=1.26,<3", "streamlit>=1.42,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1", "reportlab>=4,<5"]
+eval = ["ragas==0.2.15", "langchain-ollama>=0.2,<0.4", "datasets>=3,<4", "langchain>=0.3,<0.4", "langchain-community>=0.3,<0.4", "langchain-core>=0.3,<0.4", "langchain-openai>=0.2,<0.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+[tool.ruff]
+line-length = 100

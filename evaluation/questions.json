@@ -1,0 +1,402 @@
+[
+  {
+    "id": "q01",
+    "question": "How quickly must a critical incident be acknowledged?",
+    "reference": "Critical incidents must be acknowledged within fifteen minutes.",
+    "expected_substring": "fifteen minutes",
+    "source": "documind-handbook.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "q02",
+    "question": "Who owns the incident response timeline?",
+    "reference": "The incident commander owns the response timeline.",
+    "expected_substring": "incident commander",
+    "source": "documind-handbook.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "q03",
+    "question": "Who receives escalated security incidents?",
+    "reference": "Security incidents are escalated to the security duty officer.",
+    "expected_substring": "security duty officer",
+    "source": "documind-handbook.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "q04",
+    "question": "When is the post-incident review due?",
+    "reference": "A post-incident review is due within five business days.",
+    "expected_substring": "five business days",
+    "source": "documind-handbook.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "q05",
+    "question": "How often are customers updated during an outage?",
+    "reference": "Customer status updates are sent every thirty minutes during an outage.",
+    "expected_substring": "thirty minutes",
+    "source": "documind-handbook.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "q06",
+    "question": "Who must approve access to production?",
+    "reference": "Production access requires approval from a service owner.",
+    "expected_substring": "service owner",
+    "source": "documind-handbook.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "q07",
+    "question": "How long does privileged access last?",
+    "reference": "Privileged access expires after eight hours.",
+    "expected_substring": "eight hours",
+    "source": "documind-handbook.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "q08",
+    "question": "What security device is required for administrator accounts?",
+    "reference": "All administrator accounts require a hardware security key.",
+    "expected_substring": "hardware security key",
+    "source": "documind-handbook.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "q09",
+    "question": "How often is user access reviewed?",
+    "reference": "User access is reviewed every calendar quarter.",
+    "expected_substring": "calendar quarter",
+    "source": "documind-handbook.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "q10",
+    "question": "How fast must access for a departed employee be removed?",
+    "reference": "Departed employee access must be removed within one hour.",
+    "expected_substring": "one hour",
+    "source": "documind-handbook.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "q11",
+    "question": "At what time do database backups run?",
+    "reference": "Database backups run daily at 02:00 UTC.",
+    "expected_substring": "02:00 UTC",
+    "source": "documind-handbook.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "q12",
+    "question": "How long are daily backups retained?",
+    "reference": "Daily backup retention is thirty days.",
+    "expected_substring": "thirty days",
+    "source": "documind-handbook.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "q13",
+    "question": "How frequently are backup restoration drills held?",
+    "reference": "Backup restoration drills happen every month.",
+    "expected_substring": "every month",
+    "source": "documind-handbook.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "q14",
+    "question": "What is the recovery point objective?",
+    "reference": "The recovery point objective is twenty-four hours.",
+    "expected_substring": "twenty-four hours",
+    "source": "documind-handbook.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "q15",
+    "question": "What is the recovery time objective?",
+    "reference": "The recovery time objective is four hours.",
+    "expected_substring": "four hours",
+    "source": "documind-handbook.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "q16",
+    "question": "Which encryption protects confidential documents at rest?",
+    "reference": "Confidential documents must be encrypted at rest with AES-256.",
+    "expected_substring": "AES-256",
+    "source": "documind-handbook.pdf",
+    "expected_page": 4
+  },
+  {
+    "id": "q17",
+    "question": "When do customer export links expire?",
+    "reference": "Customer export links expire after forty-eight hours.",
+    "expected_substring": "forty-eight hours",
+    "source": "documind-handbook.pdf",
+    "expected_page": 4
+  },
+  {
+    "id": "q18",
+    "question": "What is the deadline for personal data deletion requests?",
+    "reference": "Personal data deletion requests are completed within thirty calendar days.",
+    "expected_substring": "thirty calendar days",
+    "source": "documind-handbook.pdf",
+    "expected_page": 4
+  },
+  {
+    "id": "q19",
+    "question": "Where can restricted data be stored?",
+    "reference": "Restricted data may only be stored in the approved regional vault.",
+    "expected_substring": "approved regional vault",
+    "source": "documind-handbook.pdf",
+    "expected_page": 4
+  },
+  {
+    "id": "q20",
+    "question": "Who approves a new purpose for processing personal data?",
+    "reference": "The privacy lead approves new personal data processing purposes.",
+    "expected_substring": "privacy lead",
+    "source": "documind-handbook.pdf",
+    "expected_page": 4
+  },
+  {
+    "id": "q21",
+    "question": "When are normal releases scheduled?",
+    "reference": "Normal releases are scheduled on Tuesdays at 10:00 UTC.",
+    "expected_substring": "Tuesdays at 10:00 UTC",
+    "source": "documind-handbook.pdf",
+    "expected_page": 5
+  },
+  {
+    "id": "q22",
+    "question": "How many peer approvals are needed for a production release?",
+    "reference": "Every production release needs two peer approvals.",
+    "expected_substring": "two peer approvals",
+    "source": "documind-handbook.pdf",
+    "expected_page": 5
+  },
+  {
+    "id": "q23",
+    "question": "What traffic share does an initial canary deployment receive?",
+    "reference": "Canary deployments initially serve five percent of traffic.",
+    "expected_substring": "five percent",
+    "source": "documind-handbook.pdf",
+    "expected_page": 5
+  },
+  {
+    "id": "q24",
+    "question": "What error rate triggers a release rollback?",
+    "reference": "A release is rolled back when the error rate exceeds two percent.",
+    "expected_substring": "two percent",
+    "source": "documind-handbook.pdf",
+    "expected_page": 5
+  },
+  {
+    "id": "q25",
+    "question": "Who approves emergency releases?",
+    "reference": "Emergency releases require approval from the engineering duty manager.",
+    "expected_substring": "engineering duty manager",
+    "source": "documind-handbook.pdf",
+    "expected_page": 5
+  },
+  {
+    "id": "q26",
+    "question": "What are the standard support desk hours?",
+    "reference": "The standard support desk operates from 08:00 to 18:00 UTC.",
+    "expected_substring": "08:00 to 18:00 UTC",
+    "source": "documind-handbook.pdf",
+    "expected_page": 6
+  },
+  {
+    "id": "q27",
+    "question": "What is the response target for priority one support tickets?",
+    "reference": "Priority one support tickets have a response target of ten minutes.",
+    "expected_substring": "ten minutes",
+    "source": "documind-handbook.pdf",
+    "expected_page": 6
+  },
+  {
+    "id": "q28",
+    "question": "What is the response target for priority two tickets?",
+    "reference": "Priority two tickets have a response target of two hours.",
+    "expected_substring": "two hours",
+    "source": "documind-handbook.pdf",
+    "expected_page": 6
+  },
+  {
+    "id": "q29",
+    "question": "How long are support ticket attachments kept?",
+    "reference": "Support ticket attachments are deleted after ninety days.",
+    "expected_substring": "ninety days",
+    "source": "documind-handbook.pdf",
+    "expected_page": 6
+  },
+  {
+    "id": "q30",
+    "question": "Who reviews unresolved tickets each morning?",
+    "reference": "The support lead reviews unresolved tickets every morning.",
+    "expected_substring": "support lead",
+    "source": "documind-handbook.pdf",
+    "expected_page": 6
+  },
+  {
+    "id": "q31",
+    "question": "How often are company laptops replaced?",
+    "reference": "Company laptops are replaced every four years.",
+    "expected_substring": "four years",
+    "source": "documind-handbook.pdf",
+    "expected_page": 7
+  },
+  {
+    "id": "q32",
+    "question": "When must lost equipment be reported?",
+    "reference": "Lost equipment must be reported within two hours of discovery.",
+    "expected_substring": "two hours",
+    "source": "documind-handbook.pdf",
+    "expected_page": 7
+  },
+  {
+    "id": "q33",
+    "question": "What encryption requirement applies to company laptops?",
+    "reference": "Full disk encryption is mandatory on every company laptop.",
+    "expected_substring": "Full disk encryption",
+    "source": "documind-handbook.pdf",
+    "expected_page": 7
+  },
+  {
+    "id": "q34",
+    "question": "Which team handles equipment returns?",
+    "reference": "Equipment returns are handled by the workplace operations team.",
+    "expected_substring": "workplace operations team",
+    "source": "documind-handbook.pdf",
+    "expected_page": 7
+  },
+  {
+    "id": "q35",
+    "question": "What is the deadline for laptop operating system updates?",
+    "reference": "Laptop operating system updates are installed within seven days.",
+    "expected_substring": "seven days",
+    "source": "documind-handbook.pdf",
+    "expected_page": 7
+  },
+  {
+    "id": "q36",
+    "question": "How often are vendors handling customer data reviewed?",
+    "reference": "Vendors handling customer data receive a security review annually.",
+    "expected_substring": "annually",
+    "source": "documind-handbook.pdf",
+    "expected_page": 8
+  },
+  {
+    "id": "q37",
+    "question": "Who owns the vendor inventory?",
+    "reference": "The procurement lead owns the vendor inventory.",
+    "expected_substring": "procurement lead",
+    "source": "documind-handbook.pdf",
+    "expected_page": 8
+  },
+  {
+    "id": "q38",
+    "question": "What signed agreement is required for a new vendor contract?",
+    "reference": "New vendor contracts require a signed data processing agreement.",
+    "expected_substring": "data processing agreement",
+    "source": "documind-handbook.pdf",
+    "expected_page": 8
+  },
+  {
+    "id": "q39",
+    "question": "How quickly must high risk vendor findings be remediated?",
+    "reference": "High risk vendor findings must be remediated within fourteen days.",
+    "expected_substring": "fourteen days",
+    "source": "documind-handbook.pdf",
+    "expected_page": 8
+  },
+  {
+    "id": "q40",
+    "question": "What happens to integration credentials during vendor offboarding?",
+    "reference": "Vendor offboarding includes deleting integration credentials.",
+    "expected_substring": "deleting integration credentials",
+    "source": "documind-handbook.pdf",
+    "expected_page": 8
+  },
+  {
+    "id": "q41",
+    "question": "What is the monthly service availability target?",
+    "reference": "The monthly service availability target is 99.9 percent.",
+    "expected_substring": "99.9 percent",
+    "source": "documind-handbook.pdf",
+    "expected_page": 9
+  },
+  {
+    "id": "q42",
+    "question": "How often do health probes run?",
+    "reference": "Health probes run every sixty seconds.",
+    "expected_substring": "sixty seconds",
+    "source": "documind-handbook.pdf",
+    "expected_page": 9
+  },
+  {
+    "id": "q43",
+    "question": "When are capacity forecasts reviewed?",
+    "reference": "Capacity forecasts are reviewed on the first Monday of each month.",
+    "expected_substring": "first Monday",
+    "source": "documind-handbook.pdf",
+    "expected_page": 9
+  },
+  {
+    "id": "q44",
+    "question": "How long are application error logs retained?",
+    "reference": "Application error logs are retained for twenty-one days.",
+    "expected_substring": "twenty-one days",
+    "source": "documind-handbook.pdf",
+    "expected_page": 9
+  },
+  {
+    "id": "q45",
+    "question": "When do on-call rotations change?",
+    "reference": "On-call rotations change every Wednesday at 09:00 UTC.",
+    "expected_substring": "Wednesday at 09:00 UTC",
+    "source": "documind-handbook.pdf",
+    "expected_page": 9
+  },
+  {
+    "id": "q46",
+    "question": "When must expense claims be filed?",
+    "reference": "Expense claims must be filed within twenty days of travel.",
+    "expected_substring": "twenty days",
+    "source": "documind-handbook.pdf",
+    "expected_page": 10
+  },
+  {
+    "id": "q47",
+    "question": "Who approves international travel?",
+    "reference": "International travel requires director approval.",
+    "expected_substring": "director approval",
+    "source": "documind-handbook.pdf",
+    "expected_page": 10
+  },
+  {
+    "id": "q48",
+    "question": "What is the default flight class for company travel?",
+    "reference": "Economy class is the default for company flights.",
+    "expected_substring": "Economy class",
+    "source": "documind-handbook.pdf",
+    "expected_page": 10
+  },
+  {
+    "id": "q49",
+    "question": "What receipts are required for meal reimbursement?",
+    "reference": "Itemized receipts are required for meal reimbursement.",
+    "expected_substring": "Itemized receipts",
+    "source": "documind-handbook.pdf",
+    "expected_page": 10
+  },
+  {
+    "id": "q50",
+    "question": "When are approved expenses paid?",
+    "reference": "The finance team pays approved expenses every Friday.",
+    "expected_substring": "every Friday",
+    "source": "documind-handbook.pdf",
+    "expected_page": 10
+  }
+]

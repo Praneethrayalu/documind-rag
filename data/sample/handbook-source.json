@@ -1,0 +1,112 @@
+[
+  {
+    "page": 1,
+    "topic": "Incident response",
+    "facts": [
+      "Critical incidents must be acknowledged within fifteen minutes.",
+      "The incident commander owns the response timeline.",
+      "Security incidents are escalated to the security duty officer.",
+      "A post-incident review is due within five business days.",
+      "Customer status updates are sent every thirty minutes during an outage."
+    ]
+  },
+  {
+    "page": 2,
+    "topic": "Access control",
+    "facts": [
+      "Production access requires approval from a service owner.",
+      "Privileged access expires after eight hours.",
+      "All administrator accounts require a hardware security key.",
+      "User access is reviewed every calendar quarter.",
+      "Departed employee access must be removed within one hour."
+    ]
+  },
+  {
+    "page": 3,
+    "topic": "Backups",
+    "facts": [
+      "Database backups run daily at 02:00 UTC.",
+      "Daily backup retention is thirty days.",
+      "Backup restoration drills happen every month.",
+      "The recovery point objective is twenty-four hours.",
+      "The recovery time objective is four hours."
+    ]
+  },
+  {
+    "page": 4,
+    "topic": "Data handling",
+    "facts": [
+      "Confidential documents must be encrypted at rest with AES-256.",
+      "Customer export links expire after forty-eight hours.",
+      "Personal data deletion requests are completed within thirty calendar days.",
+      "Restricted data may only be stored in the approved regional vault.",
+      "The privacy lead approves new personal data processing purposes."
+    ]
+  },
+  {
+    "page": 5,
+    "topic": "Release management",
+    "facts": [
+      "Normal releases are scheduled on Tuesdays at 10:00 UTC.",
+      "Every production release needs two peer approvals.",
+      "Canary deployments initially serve five percent of traffic.",
+      "A release is rolled back when the error rate exceeds two percent.",
+      "Emergency releases require approval from the engineering duty manager."
+    ]
+  },
+  {
+    "page": 6,
+    "topic": "Support",
+    "facts": [
+      "The standard support desk operates from 08:00 to 18:00 UTC.",
+      "Priority one support tickets have a response target of ten minutes.",
+      "Priority two tickets have a response target of two hours.",
+      "Support ticket attachments are deleted after ninety days.",
+      "The support lead reviews unresolved tickets every morning."
+    ]
+  },
+  {
+    "page": 7,
+    "topic": "Equipment",
+    "facts": [
+      "Company laptops are replaced every four years.",
+      "Lost equipment must be reported within two hours of discovery.",
+      "Full disk encryption is mandatory on every company laptop.",
+      "Equipment returns are handled by the workplace operations team.",
+      "Laptop operating system updates are installed within seven days."
+    ]
+  },
+  {
+    "page": 8,
+    "topic": "Vendor review",
+    "facts": [
+      "Vendors handling customer data receive a security review annually.",
+      "The procurement lead owns the vendor inventory.",
+      "New vendor contracts require a signed data processing agreement.",
+      "High risk vendor findings must be remediated within fourteen days.",
+      "Vendor offboarding includes deleting integration credentials."
+    ]
+  },
+  {
+    "page": 9,
+    "topic": "Service reliability",
+    "facts": [
+      "The monthly service availability target is 99.9 percent.",
+      "Health probes run every sixty seconds.",
+      "Capacity forecasts are reviewed on the first Monday of each month.",
+      "Application error logs are retained for twenty-one days.",
+      "On-call rotations change every Wednesday at 09:00 UTC."
+    ]
+  },
+  {
+    "page": 10,
+    "topic": "Travel and expenses",
+    "facts": [
+      "Expense claims must be filed within twenty days of travel.",
+      "International travel requires director approval.",
+      "Economy class is the default for company flights.",
+      "Itemized receipts are required for meal reimbursement.",
+      "The finance team pays approved expenses every Friday."
+    ]
+  }
+]
